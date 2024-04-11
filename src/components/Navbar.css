@@ -1,0 +1,28 @@
+nav {
+  background-color: black;
+  padding: 10px 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Display items horizontally */
+  justify-content: flex-end; /* Move items to the right corner */
+}
+
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px; /* Adjust spacing between links */
+}
+
+.nav-link:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+.nav-link:first-child {
+  margin-left: 0; /* Remove left margin for the first link */
+}
+
+
